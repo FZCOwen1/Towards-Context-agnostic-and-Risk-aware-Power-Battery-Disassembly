@@ -23,9 +23,9 @@ DEFAULT_TARGET_POSITION = (300, 300, 300)
 # ===================== 配置区 =====================
 
 # --- 原始配置 ---
-ragflow_api_key = "ragflow-JkZGM1MjI0OGZiNzExZjBiMmE5N2E4ZG"
-dialog_id = "a48bcb0aa4fe11f097b62294d3d84750"
-ragflow_address = "127.0.0.1"
+ragflow_api_key = ""
+dialog_id = ""
+ragflow_address = ""
 assistant_reply = None
 
 model = "deepseek-chat"

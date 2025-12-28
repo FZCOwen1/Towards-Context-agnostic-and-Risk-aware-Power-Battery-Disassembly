@@ -8,10 +8,10 @@ from agent1_validation import calculate_accuracy
 from ragflow_sdk import RAGFlow
 
 
-ragflow_api_key = "ragflow-JkZGM1MjI0OGZiNzExZjBiMmE5N2E4ZG"
-dialog_id = "20f65e9e8d5811f0b4a27a8dead3d5aa"
-dialog_id_2 = "0143a88e984511f0ba6b86284a4c60ba" #For the model without knowledge base
-ragflow_address = "127.0.0.1"
+ragflow_api_key = ""
+dialog_id = ""
+dialog_id_2 = "“
+ragflow_address = ""
 run_detect = False
 model = "gemini-3.0-pro-preview"
 client = OpenAI(api_key=ragflow_api_key, base_url=f"http://{ragflow_address}/api/v1/chats_openai/{dialog_id}")

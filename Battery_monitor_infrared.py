@@ -7,9 +7,9 @@ from functions import memory
 from PIL import Image
 
 # --- 原始配置 ---
-ragflow_api_key = "ragflow-JkZGM1MjI0OGZiNzExZjBiMmE5N2E4ZG"
-dialog_id = "36521dfebaea11f09fa9c24fd1ca77ef"
-ragflow_address = "127.0.0.1"
+ragflow_api_key = ""
+dialog_id = ""
+ragflow_address = ""
 model = "deepseek-reasoner"
 client = OpenAI(api_key=ragflow_api_key, base_url=f"http://{ragflow_address}/api/v1/chats_openai/{dialog_id}")
 
